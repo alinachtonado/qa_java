@@ -12,13 +12,13 @@ import java.util.Collection;
 import static org.mockito.Mockito.mock;
 
 @RunWith(Parameterized.class)
-public class LionSexTests {
+public class LionSexTest {
     private Lion lion;
 
     private final boolean hasMane;
     private final String sex;
 
-    public LionSexTests(String sex, boolean hasMane) {
+    public LionSexTest(String sex, boolean hasMane) {
         this.hasMane = hasMane;
         this.sex = sex;
     }

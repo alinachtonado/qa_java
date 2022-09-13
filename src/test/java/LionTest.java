@@ -10,7 +10,7 @@ import java.util.List;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class LionTests {
+public class LionTest {
     private Lion lion;
     private Feline feline;
 
